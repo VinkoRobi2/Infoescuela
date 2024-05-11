@@ -1,0 +1,92 @@
+[
+    {
+        "Codigo": 1,
+        "Producto": "Licuadora",
+        "Stock": 99,
+        "Precio": 50
+    },
+    {
+        "Codigo": 2,
+        "Producto": "Refrigerador",
+        "Stock": 100,
+        "Precio": 680
+    },
+    {
+        "Codigo": 3,
+        "Producto": "Plancha",
+        "Stock": 100,
+        "Precio": 30
+    },
+    {
+        "Codigo": 4,
+        "Producto": "iPad",
+        "Stock": 100,
+        "Precio": 1000
+    },
+    {
+        "Codigo": 5,
+        "Producto": "Linterna",
+        "Stock": 100,
+        "Precio": 8
+    },
+    {
+        "Codigo": 6,
+        "Producto": "Bicicleta",
+        "Stock": 100,
+        "Precio": 780
+    },
+    {
+        "Codigo": 7,
+        "Producto": "Aud\u00c3\u00adfonos",
+        "Stock": 100,
+        "Precio": 10
+    },
+    {
+        "Codigo": 8,
+        "Producto": "Pluma",
+        "Stock": 100,
+        "Precio": 1
+    },
+    {
+        "Codigo": 9,
+        "Producto": "Batidora",
+        "Stock": 100,
+        "Precio": 85
+    },
+    {
+        "Codigo": 10,
+        "Producto": "Laptop",
+        "Stock": 100,
+        "Precio": 590
+    },
+    {
+        "Codigo": 11,
+        "Producto": "Toalla",
+        "Stock": 100,
+        "Precio": 25
+    },
+    {
+        "Codigo": 12,
+        "Producto": "L\u00c3\u00a1piz",
+        "Stock": 100,
+        "Precio": 1
+    },
+    {
+        "Codigo": 13,
+        "Producto": "Grapadora",
+        "Stock": 100,
+        "Precio": 14
+    },
+    {
+        "Codigo": 14,
+        "Producto": "Cuaderno",
+        "Stock": 100,
+        "Precio": 5
+    },
+    {
+        "Codigo": 15,
+        "Producto": "TV",
+        "Stock": 100,
+        "Precio": 375
+    }
+]
