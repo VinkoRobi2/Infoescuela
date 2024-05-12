@@ -20,6 +20,16 @@ def AbrirJson():
         tabla = tabulate(filas, headers=encabezado, tablefmt="grid")
         print(tabla)
 
+def Eliminar():
+    with open (const,'r+') as archivo:
+     data = json.load(archivo)
+     codigo = int(input("Ingresa el código del producto a eliminar: "))
+     for producto in data:
+         if producto['Codigo'] == codigo:
+             data.remove(producto)
+             print("El producto fue elimnado exitosamente")
+    with open(const, "w") as archivo:
+        json.dump(data, archivo, indent=4)
 
 
 
@@ -39,13 +49,14 @@ def VenderProducto():
                 print("No hay stock disponible para este producto.")
             break 
     else:
-        print("Código de producto no válido")
+        print("Codigo de producto no válido")
     with open(const, "w") as archivo:
         json.dump(data, archivo, indent=4)
 
 
 def Quehacer():
     while True:
+        time.sleep(3)
         Bienvenida()
         ins = input("¿Qué vas a hacer? ").upper()
         if ins == "I":
@@ -55,6 +66,8 @@ def Quehacer():
             break
         elif ins == "V":
             VenderProducto()
+        elif ins == "E":
+            Eliminar()
         else:
             print("Opción no válida. Por favor, elige una opción válida.")
 
