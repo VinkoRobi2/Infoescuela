@@ -56,7 +56,7 @@ def VenderProducto():
 
 def Quehacer():
     while True:
-        time.sleep(3)
+        time.sleep(2.5)
         Bienvenida()
         print("")
         print("")
