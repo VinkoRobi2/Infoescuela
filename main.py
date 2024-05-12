@@ -58,6 +58,9 @@ def Quehacer():
     while True:
         time.sleep(3)
         Bienvenida()
+        print("")
+        print("")
+        print("")
         ins = input("¿Qué vas a hacer? ").upper()
         if ins == "I":
             AbrirJson()
