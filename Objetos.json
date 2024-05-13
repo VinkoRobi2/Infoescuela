@@ -1,10 +1,10 @@
 [
-     {
-    "Codigo": 1,
-    "Producto": "Licuadora",
-    "Stock": 99,
-    "Precio": 50
-     },
+    {
+        "Codigo": 1,
+        "Producto": "Licuadora",
+        "Stock": 99,
+        "Precio": 50
+    },
     {
         "Codigo": 2,
         "Producto": "Refrigerador",
@@ -37,7 +37,7 @@
     },
     {
         "Codigo": 7,
-        "Producto": "Aud\u00c3\u00adfonos",
+        "Producto": "Audifonos",
         "Stock": 100,
         "Precio": 10
     },
@@ -67,7 +67,7 @@
     },
     {
         "Codigo": 12,
-        "Producto": "L\u00c3\u00a1piz",
+        "Producto": "Lapiz",
         "Stock": 100,
         "Precio": 1
     },
@@ -86,7 +86,7 @@
     {
         "Codigo": 15,
         "Producto": "TV",
-        "Stock": 100,
+        "Stock": 99,
         "Precio": 375
     }
 ]
