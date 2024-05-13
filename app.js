@@ -3,6 +3,6 @@ const Getdata = async()=>{
     const resp = await fetch(url)
     const {location} = await resp.json()
     const {lat,lon} = location
-    console.log(`La latitud es ${lat} y la longuitud es ${lon}`)
+    console.log(`La latitud es ,${lat} y la longuitud es, ${lon}`)
 }
 Getdata()
