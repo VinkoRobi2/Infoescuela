@@ -86,7 +86,7 @@
     {
         "Codigo": 15,
         "Producto": "TV",
-        "Stock": -101,
+        "Stock": 100,
         "Precio": 375
     }
 ]
